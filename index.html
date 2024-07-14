@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <!-- tr define a linha da tabela -->
+        <tr>
+            <!-- th define o cabeçalho da tabela -->
+            <th>Nome</th>
+            <th>idade</th>
+            <th>informações adicionais</th>
+            <th>informações adicionais</th>
+            <th>informações adicionais</th>
+            <th>informações adicionais</th>
+
+        </tr>
+
+        <tr>
+            <!-- td define uma informação da tabela -->
+            <td>joao</td>
+            <td>25</td>
+            <td>sou estudante</td>
+        </tr>
+
+        <tr>
+            <td>maria</td>
+            <td>23</td>
+            <td>programadora</td>
+        </tr>        
+        
+        <!-- rowspan 3 no nome fará que o nome ocupe 3 lihas-->
+        <tr>
+            <td>jose</td>
+            <td>25</td>
+            <td>programador</td>
+        </tr>        
+        
+        <tr>
+            <td>tião</td>
+            <td>25</td>
+            <td>programador</td>
+        </tr>
+
+        <!-- outra forma de fazer as tabelas é
+         com <thhead>, <tbody> facilita na estilização das tabelas -->
+        
+        <!-- thead é utilizado para agrupar as linhas que contenham os cabeçalhos das tabelas -->
+        <!-- tbody agrupa o corpo da tabela -->
+        
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
